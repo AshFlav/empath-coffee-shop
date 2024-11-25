@@ -82,7 +82,7 @@ body {
     color: var(--primary)
 }
 
-#hamburger-menu {
+#hamburgerMenu {
     display: none;
 }
 
@@ -326,7 +326,7 @@ footer .credit a {
         font-size: 62.5%;
     }
 
- #hamburger-menu {
+ #hamburgerMenu {
     display: inline-block;
  }
 
