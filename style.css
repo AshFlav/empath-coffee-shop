@@ -72,13 +72,13 @@ body {
     transform: scaleX(0.5);
 }
 
-.navbar .navbar-extra a {
+.navbar .navbarextra a {
     color: white;
     margin: 0 0.5rem;
 }
 
 
-.navbar .navbar-extra a:hover {
+.navbar .navbarextra a:hover {
     color: var(--primary)
 }
 
