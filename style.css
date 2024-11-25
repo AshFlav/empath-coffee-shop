@@ -83,7 +83,7 @@ body {
 }
 
 #hamburgerMenu {
-    display: none;
+    display: block;
 }
 
 /* Hero Section */
@@ -327,7 +327,7 @@ footer .credit a {
     }
 
  #hamburgerMenu {
-    display: inline-block;
+    display: block;
  }
 
  .navbar .navbar-nav {
