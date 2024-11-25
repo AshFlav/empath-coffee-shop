@@ -338,10 +338,12 @@ footer .credit a {
     width: 30rem;
     height: 100vh;
     transition: 0.3s;
+    opacity: 0;
  }
 
   .navbar .navbar-nav.active {
     right: 0;
+    opacity: 1;
   }
 
   .navbar .navbar-nav a {
