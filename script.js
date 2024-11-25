@@ -12,4 +12,6 @@ document.addEventListener('click', (e) => {
   if (!hamburgerMenu.contains(e.target) && !navbarNav.contains(e.target)) {
     navbarNav.classList.remove('active');
   }
+  console.log(hamburgerMenu); // Should log the element
+console.log(navbarNav); // Should log the element
 });
