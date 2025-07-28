@@ -72,13 +72,13 @@ body {
     transform: scaleX(0.5);
 }
 
-.navbar .navbar-extra a {
+.navbar .navbarextra a {
     color: white;
     margin: 0 0.5rem;
 }
 
 
-.navbar .navbar-extra a:hover {
+.navbar .navbarextra a:hover {
     color: var(--primary)
 }
 
@@ -91,7 +91,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../header-bg.jpg');
+    background-image: url('./header-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -338,10 +338,12 @@ footer .credit a {
     width: 30rem;
     height: 100vh;
     transition: 0.3s;
+    opacity: 0;
  }
 
   .navbar .navbar-nav.active {
     right: 0;
+    opacity: 1;
   }
 
   .navbar .navbar-nav a {
